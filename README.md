@@ -33,6 +33,9 @@ This project integrates IoT hardware with a mobile app built using Android Studi
 - **Arduino IDE**: For programming the ESP32 board.
 - **Firebase Cloud Messaging (FCM)**: To send push notifications.
 
+  ![image](https://github.com/user-attachments/assets/a31fe9dd-b475-4bae-98eb-3b0c9bac1f18)
+
+
 ---
 
 ## Prerequisites
@@ -58,7 +61,8 @@ This project integrates IoT hardware with a mobile app built using Android Studi
 - **Smoke Sensor**: Connect the smoke sensor to another analog input pin of the ESP32.
 - **Gas Sensor**: Connect the gas sensor to an analog input pin of the ESP32.
 - **Temperature Sensor**: Connect the temperature sensor (e.g., DHT11) to a digital pin of the ESP32.
-- **Camera Module**: Set up the camera for capturing real-time images or videos (optional).
+![image](https://github.com/user-attachments/assets/f18d1ed2-48f6-4010-bb31-a7dcdb4f5e1d)
+
 
 Refer to the datasheets of each component for pinout and wiring details.
 
@@ -68,6 +72,7 @@ Refer to the datasheets of each component for pinout and wiring details.
 - Enable Firebase Realtime Database or Firestore to store sensor data.
 - Set up Firebase Cloud Messaging (FCM) for push notifications.
 - Obtain your Firebase credentials and configure them in your Android app.
+  
 
 ### 3. Programming the ESP32
 
